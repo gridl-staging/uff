@@ -56,6 +56,7 @@ jobs:
     permissions:
       contents: read
     env:
+      FCM_PROJECT_ID: ${{ secrets.FCM_PROJECT_ID }}
       FIREBASE_TEST_DEVICE_TOKEN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.device_token || secrets.FIREBASE_TEST_DEVICE_TOKEN }}
       FIREBASE_OUTPUT_DIR: tmp/firebase_test_lab/ios
     steps:
