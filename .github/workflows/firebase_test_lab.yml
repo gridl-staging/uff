@@ -20,7 +20,7 @@ jobs:
       FCM_PROJECT_ID: ${{ secrets.FCM_PROJECT_ID }}
       FIREBASE_TEST_DEVICE_TOKEN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.device_token || secrets.FIREBASE_TEST_DEVICE_TOKEN }}
       FIREBASE_OUTPUT_DIR: tmp/firebase_test_lab/android
-      GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase_test_lab_service_account.json
+      GOOGLE_APPLICATION_CREDENTIALS: /tmp/firebase_test_lab_service_account.json
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
