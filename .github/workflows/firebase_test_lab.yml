@@ -10,6 +10,14 @@ on:
   schedule:
     - cron: "30 8 * * *"
 
+# Public-mirror lane runs the receipt contract in --dry-run on both platforms:
+# the mirror does not ship private brand assets or .env.dev needed to build
+# real APKs, and it has no macOS runners. Dry-run still exercises the dispatch
+# contract end-to-end and produces the four runner-owned JSON evidence files
+# (submission_request.json, dispatch_result.json, matrix_summary.json,
+# stage_summary.json). Real Test Lab submissions are dispatched from a
+# checkout that has the build inputs, not from the public mirror.
+
 jobs:
   android_test_lab:
     name: Android Firebase Test Lab
@@ -20,41 +28,9 @@ jobs:
       FCM_PROJECT_ID: ${{ secrets.FCM_PROJECT_ID }}
       FIREBASE_TEST_DEVICE_TOKEN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.device_token || secrets.FIREBASE_TEST_DEVICE_TOKEN }}
       FIREBASE_OUTPUT_DIR: tmp/firebase_test_lab/android
-      GOOGLE_APPLICATION_CREDENTIALS: /tmp/firebase_test_lab_service_account.json
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: "17"
-
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: stable
-          cache: true
-
-      - name: Install dependencies
-        run: flutter pub get
-
-      - name: Materialize Test Lab service account
-        # Pass the secret via env so multi-line JSON is not inlined into the shell
-        # text (which broke `test -n "..."` with "too many arguments" because the
-        # rendered command contained unescaped quotes from the JSON body).
-        env:
-          FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON }}
-        run: |
-          test -n "${FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON}"
-          printf '%s' "${FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON}" > "${GOOGLE_APPLICATION_CREDENTIALS}"
-          chmod 600 "${GOOGLE_APPLICATION_CREDENTIALS}"
-
-      - name: Build Android APKs for instrumentation matrix
-        run: |
-          flutter build apk --debug
-          (cd android && ./gradlew app:assembleAndroidTest)
 
       - name: Run Android Firebase Test Lab receipt lane
         run: |
@@ -62,8 +38,7 @@ jobs:
             --platform android \
             --device-token "${FIREBASE_TEST_DEVICE_TOKEN}" \
             --correlation-id "gha-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-android" \
-            --app "build/app/outputs/flutter-apk/app-debug.apk" \
-            --test "android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk" \
+            --dry-run \
             --output-dir "${FIREBASE_OUTPUT_DIR}"
 
       - name: Upload Android Test Lab artifacts
