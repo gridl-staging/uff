@@ -1,0 +1,4 @@
+enum SportType {
+  run,
+  ride,
+}

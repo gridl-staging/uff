@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  SPIKE: Stage 6 — Public beacon web viewer.
+  No login required. Connects to Supabase Realtime Broadcast using only the
+  anon key and displays incoming GPS coordinates in real time.
+
+  Usage: open in browser, fill in URL/key/session, and click Connect.
+  Or pass as URL params: ?url=...&key=...&session=...
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>UFF Beacon Viewer (Spike)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, monospace; padding: 1.5rem; max-width: 52rem; margin: auto; }
+    h1 { font-size: 1.25rem; margin-bottom: .25rem; }
+    .subtitle { color: #666; font-size: .85rem; margin-bottom: 1rem; }
+    label { display: block; margin: .3rem 0; font-size: .85rem; }
+    input { width: 100%; padding: .35rem .5rem; font-family: monospace; font-size: .85rem; }
+    .controls { margin: .5rem 0; }
+    button { padding: .4rem 1rem; margin-right: .5rem; cursor: pointer; }
+    #status { padding: .5rem; margin: .75rem 0; border-radius: 4px; font-size: .85rem; }
+    .connected { background: #d4edda; color: #155724; }
+    .disconnected { background: #f8d7da; color: #721c24; }
+    .waiting { background: #fff3cd; color: #856404; }
+    #current { margin: 1rem 0; padding: 1rem; background: #f8f9fa; border-radius: 6px; font-size: 1.1rem; line-height: 1.8; }
+    #current span { font-weight: bold; }
+    h3 { font-size: .95rem; margin: .75rem 0 .3rem; }
+    #log { border: 1px solid #ddd; padding: .5rem; max-height: 20rem; overflow-y: auto; font-size: .8rem; font-family: monospace; }
+    .entry { margin: 1px 0; }
+  </style>
+</head>
+<body>
+
+<h1>UFF Beacon Viewer (Spike)</h1>
+<p class="subtitle">No login required — receives live GPS via Supabase Realtime Broadcast.</p>
+
+<label>Supabase URL <input id="url" placeholder="http://127.0.0.1:54321"></label>
+<label>Anon Key <input id="key" placeholder="eyJ..."></label>
+<label>Session ID <input id="session" placeholder="uuid from sender"></label>
+
+<div class="controls">
+  <button id="btnConnect">Connect</button>
+  <button id="btnDisconnect" disabled>Disconnect</button>
+</div>
+
+<div id="status" class="disconnected">Disconnected</div>
+
+<div id="current">
+  Latitude: <span id="lat">&mdash;</span><br>
+  Longitude: <span id="lon">&mdash;</span><br>
+  Speed: <span id="spd">&mdash;</span> m/s &nbsp;
+  Bearing: <span id="brg">&mdash;</span>&deg; &nbsp;
+  Accuracy: <span id="acc">&mdash;</span> m<br>
+  Last update: <span id="lastUpdate">&mdash;</span> &nbsp;
+  Messages: <span id="count">0</span> &nbsp;
+  Avg latency: <span id="avgLatency">&mdash;</span>
+</div>
+
+<h3>Message Log</h3>
+<div id="log"></div>
+
+<script type="module">
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
+
+const $ = (id) => document.getElementById(id)
+const params = new URLSearchParams(location.search)
+
+if (params.get('url')) $('url').value = params.get('url')
+if (params.get('key')) $('key').value = params.get('key')
+if (params.get('session')) $('session').value = params.get('session')
+if (location.search) {
+  history.replaceState(null, '', `${location.pathname}${location.hash}`)
+}
+
+let supabase = null
+let channel = null
+let msgCount = 0
+let totalLatency = 0
+let activeConnectionId = 0
+
+function setStatus(cls, text) {
+  const el = $('status')
+  el.className = cls
+  el.textContent = text
+}
+
+function beginConnectionAttempt() {
+  activeConnectionId += 1
+  return activeConnectionId
+}
+
+function isCurrentConnection(connectionId) {
+  return connectionId === activeConnectionId
+}
+
+function resetViewerState() {
+  msgCount = 0
+  totalLatency = 0
+  $('lat').textContent = '--'
+  $('lon').textContent = '--'
+  $('spd').textContent = '--'
+  $('brg').textContent = '--'
+  $('acc').textContent = '--'
+  $('lastUpdate').textContent = '--'
+  $('count').textContent = '0'
+  $('avgLatency').textContent = '--'
+  $('log').textContent = ''
+}
+
+async function disconnectActiveChannel() {
+  if (channel && supabase) {
+    await supabase.removeChannel(channel)
+  }
+  if (supabase) {
+    supabase.realtime.disconnect()
+  }
+  channel = null
+  supabase = null
+}
+
+$('btnConnect').addEventListener('click', async () => {
+  const url = $('url').value.trim()
+  const key = $('key').value.trim()
+  const sessionId = $('session').value.trim()
+  if (!url || !key || !sessionId) { alert('All fields required'); return }
+
+  const connectionId = beginConnectionAttempt()
+  await disconnectActiveChannel()
+  resetViewerState()
+  supabase = createClient(url, key)
+  channel = supabase.channel(`beacon:${sessionId}`)
+
+  channel.on('broadcast', { event: 'gps' }, ({ payload }) => {
+    if (!isCurrentConnection(connectionId)) return
+    msgCount++
+    const now = Date.now()
+    const latency = now - payload.ts
+    totalLatency += latency
+
+    $('lat').textContent = payload.lat.toFixed(6)
+    $('lon').textContent = payload.lon.toFixed(6)
+    $('spd').textContent = payload.spd
+    $('brg').textContent = payload.brg
+    $('acc').textContent = payload.acc
+    $('lastUpdate').textContent = new Date(now).toISOString().slice(11, 23)
+    $('count').textContent = msgCount
+    $('avgLatency').textContent = `${Math.round(totalLatency / msgCount)}ms`
+
+    const entry = document.createElement('div')
+    entry.className = 'entry'
+    entry.textContent = `#${payload.seq} (${payload.lat.toFixed(6)}, ${payload.lon.toFixed(6)}) ${latency}ms`
+    $('log').prepend(entry)
+  })
+
+  setStatus('waiting', 'Connecting...')
+  channel.subscribe((status) => {
+    if (!isCurrentConnection(connectionId)) return
+    if (status === 'SUBSCRIBED') {
+      setStatus('connected', `Connected to beacon:${sessionId}`)
+      $('btnConnect').disabled = true
+      $('btnDisconnect').disabled = false
+    } else if (status === 'CHANNEL_ERROR' || status === 'TIMED_OUT') {
+      setStatus('disconnected', `Connection failed: ${status}`)
+    }
+  })
+})
+
+$('btnDisconnect').addEventListener('click', async () => {
+  beginConnectionAttempt()
+  await disconnectActiveChannel()
+  resetViewerState()
+  setStatus('disconnected', 'Disconnected')
+  $('btnConnect').disabled = false
+  $('btnDisconnect').disabled = true
+})
+</script>
+
+</body>
+</html>

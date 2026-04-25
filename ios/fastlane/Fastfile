@@ -1,0 +1,103 @@
+# Stage prerequisites and lane overview:
+# 1) Required environment variables:
+#    - ASC_KEY_PATH: Path to the App Store Connect API key (.p8), typically in .secret/
+#    - ASC_KEY_ID: App Store Connect API key ID
+#    - ASC_ISSUER_ID: App Store Connect API issuer ID
+# 2) One-time prerequisites in Apple Developer/App Store Connect:
+#    - Active Apple Developer Program enrollment for this team
+#    - App Store Connect API key created with sufficient permissions
+#    - API key .p8 file placed locally under .secret/ and referenced by ASC_KEY_PATH
+# 3) Lanes in this file:
+#    - register_app: Creates the App ID and enables push notifications
+#    - setup_signing: Creates/repairs distribution cert and App Store profile
+#    - build_release: Builds the release IPA from the repo root
+#    - upload_testflight: Uploads the built IPA to TestFlight
+
+APP_IDENTIFIER = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
+TEAM_ID = CredentialsManager::AppfileConfig.try_fetch_value(:team_id)
+RUBY_ENV_VARS_TO_CLEAR = %w[
+  BUNDLE_GEMFILE
+  BUNDLE_PATH
+  BUNDLE_BIN_PATH
+  GEM_HOME
+  GEM_PATH
+  RUBYOPT
+  RUBYLIB
+].freeze
+
+def env_value(*keys)
+  keys.lazy.map { |key| ENV[key] }.find { |value| value && !value.empty? }
+end
+
+private_lane :api_key do
+  app_store_connect_api_key(
+    key_id: env_value("ASC_KEY_ID", "app_store_connect_uff_mar23_KEY_ID"),
+    issuer_id: env_value("ASC_ISSUER_ID", "app_store_connect_uff_mar23_ISSUER_ID"),
+    key_filepath: env_value("ASC_KEY_PATH", "app_store_connect_uff_mar23_KEY_PATH")
+  )
+end
+
+private_lane :resolve_ipa_path do
+  repo_root = File.expand_path("../..", __dir__)
+  repo_parent = File.dirname(repo_root)
+  ipa_candidates = [
+    *Dir[File.join(repo_parent, ".uff_dev_build", "ios", "ipa", "*.ipa")],
+    *Dir[File.join(repo_root, "build", "ios", "ipa", "*.ipa")],
+  ].sort
+
+  if ipa_candidates.empty?
+    UI.user_error!(
+      "No IPA found in #{File.join(repo_parent, ".uff_dev_build", "ios", "ipa")} or #{File.join(repo_root, "build", "ios", "ipa")}. Run the build_release lane first."
+    )
+  end
+
+  if ipa_candidates.length > 1
+    UI.user_error!("Multiple IPA files found: #{ipa_candidates.join(", ")}")
+  end
+
+  ipa_candidates.first
+end
+
+private_lane :prepare_flutter_shell_env do
+  RUBY_ENV_VARS_TO_CLEAR.each { |key| ENV.delete(key) }
+  ENV["PATH"] = "#{File.expand_path("~/.local/bin")}:#{ENV.fetch("PATH")}"
+end
+
+lane :register_app do
+  UI.message("Registering #{APP_IDENTIFIER} for team #{TEAM_ID}")
+  api_key
+  produce(
+    app_identifier: APP_IDENTIFIER,
+    app_name: "Uff",
+    team_id: TEAM_ID,
+    enable_services: {
+      push_notification: "on",
+      sign_in_with_apple: "on",
+    }
+  )
+end
+
+lane :setup_signing do
+  UI.message("Setting up signing for #{APP_IDENTIFIER} on team #{TEAM_ID}")
+  api_key
+  cert(team_id: TEAM_ID)
+  sigh(app_identifier: APP_IDENTIFIER, force: true, team_id: TEAM_ID)
+end
+
+lane :build_release do
+  UI.message("Building release IPA for #{APP_IDENTIFIER} on team #{TEAM_ID}")
+  prepare_flutter_shell_env
+  build_number = ENV["BUILD_NUMBER"]
+  UI.user_error!("BUILD_NUMBER is required for TestFlight release builds.") if build_number.to_s.empty?
+  sh("cd .. && ./scripts/dev/build_testflight_release.sh --build-number=#{build_number}")
+end
+
+lane :upload_testflight do
+  UI.message("Uploading #{APP_IDENTIFIER} for team #{TEAM_ID} to TestFlight")
+  api_key
+  upload_to_testflight(
+    app_identifier: APP_IDENTIFIER,
+    ipa: resolve_ipa_path,
+    skip_waiting_for_build_processing: true
+  )
+end

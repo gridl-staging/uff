@@ -1,0 +1,33 @@
+{
+  "interval_workout": {
+    "pointCount": 265,
+    "elapsedSeconds": 1320,
+    "movingSeconds": 1320,
+    "intervalSegmentCount": 11,
+    "paceSecondsPerKm": 282.6
+  },
+  "hilly_10k": {
+    "pointCount": 481,
+    "plannedDistanceMeters": 10008.0,
+    "elapsedSeconds": 2400,
+    "movingSeconds": 2400,
+    "elevationGainMeters": 320.0
+  },
+  "auto_pause_test": {
+    "pointCount": 154,
+    "elapsedSeconds": 765,
+    "movingSeconds": 600,
+    "pauseWindowCount": 2
+  },
+  "long_easy_run": {
+    "pointCount": 721,
+    "plannedDistanceMeters": 10908.0,
+    "elapsedSeconds": 3600,
+    "movingSeconds": 3600,
+    "paceSecondsPerKm": 330.0
+  },
+  "5k_run": {
+    "pointCount": 620,
+    "elapsedSeconds": 3095
+  }
+}

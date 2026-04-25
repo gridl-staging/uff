@@ -1,0 +1,234 @@
+# Dev artifacts
+/testpg
+/temptodo*.md
+/live-polls/
+/.toolchains/
+/tmp/signoff/
+/tmp/maestro/
+
+# Live migration runtime artifacts (large binaries/data/logs)
+_dev/migration_test/work/
+_dev/migration_test/results/*.log
+_dev/migration_test/results/*.txt
+_dev/migration_test/results/*.json
+_dev/migration_test/results/*.csv
+_dev/migration_test/results/*.out
+
+ayb-linux-amd64
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+/ayb
+/bin/
+
+.claude/
+
+# rt.py agent logs
+agent_logs/
+HANDOFF.md
+ESCALATE.md
+DONE
+
+# Go workspace
+go.work
+go.work.sum
+
+# Swift SPM build artifacts
+sdk_swift/.build/
+sdk_swift/.swiftpm/
+
+# Kotlin/Gradle build artifacts
+sdk_kotlin/.gradle/
+sdk_kotlin/build/
+
+# Node / pnpm
+**/node_modules/
+.pnpm-store/
+/.cache
+*.tsbuildinfo
+
+# Build artifacts
+/dist/
+.flutter-plugins-dependencies
+
+# UI build output is committed (used by go:embed)
+# but don't track pnpm debug logs or Playwright artifacts
+ui/.pnpm-debug.log
+ui/test-results/
+ui/playwright-report/
+ui/browser-tests-unmocked/.auth/
+ui/browser-tests-unmocked/.skip-reason
+examples/shareborough/test-results/
+examples/shareborough/playwright-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.dev
+!.env.staging
+!.env.prod
+*.pem
+*.key
+.secret/
+
+# AYB runtime
+ayb.toml
+*.log
+docs-site/.vitepress/dist/
+docs-site/.vitepress/cache/
+
+
+**/target/
+/.cargo
+/.cache
+**/node_modules/
+node_modules/
+
+
+/.vscode
+/.env
+/.secret
+/dev-data
+/data
+/tmp
+/venv
+
+# Data directories
+/datasets/
+
+# Generated/temporary JSON (specific files, not blanket *.json)
+railway.json
+.claude/settings.local.json
+sdk_test/.cache/
+**/test-results/
+benchmarks_2/results.json
+demo-dualclient/dist/openapi.json
+demo-dualclient/dist/stats.json
+demo-dualclient/public/openapi.json
+
+# Build artifacts
+/dist
+/.wrangler
+
+# PHP / Composer
+**/vendor/
+composer.lock
+*.phpunit.result.cache
+
+# Build output (all subprojects)
+**/dist/
+
+# Demo build output is committed (used by go:embed)
+!examples/kanban/dist/
+!examples/live-polls/dist/
+
+# Lock files for dependencies (keep Cargo.lock for binaries, ignore others)
+**/package-lock.json
+!sdk/package-lock.json
+!examples/kanban/package-lock.json
+!examples/live-polls/package-lock.json
+
+# ML model caches
+**/.fastembed_cache/
+
+# Tantivy lock files
+*.tantivy-meta.lock
+*.tantivy-writer.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# matt runtime state/logs
+.matt/
+
+# Roadmap orchestration artifacts (local only)
+_dev/AYB_IMPLEMENTATION_ROADMAP/.matt/
+_dev/AYB_IMPLEMENTATION_ROADMAP/repo
+_dev/AYB_IMPLEMENTATION_ROADMAP/ln_test_link
+_dev/AYB_IMPLEMENTATION_ROADMAP/_dev/
+_dev/AYB_IMPLEMENTATION_ROADMAP/HANDOFF_*.md
+_dev/AYB_IMPLEMENTATION_ROADMAP/STAGE*_HANDOFF*.md
+_dev/AYB_IMPLEMENTATION_ROADMAP/STAGE*_CHECKLIST_STATUS_*.md
+
+node_modules
+*.local
+
+# Keep embedded demo dist fixtures in git for go:embed and CLI demo tests.
+!examples/kanban/dist/
+!examples/kanban/dist/**
+!examples/live-polls/dist/
+!examples/live-polls/dist/**
+!ui/dist/
+!ui/dist/**
+
+# Stable server binary for dashboard dev/testing
+bin/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node
+node_modules/
+
+# Dart
+**/.dart_tool/
+coverage/
+
+# Stage 3 test principals (local-specific user IDs)
+supabase/tests/stage3_test_principals.json
+
+# Stage 6 beacon test results (machine-specific timing data)
+supabase/tests/stage6_beacon_results.json
+
+.hashbrown
+
+# Patrol auto-generated test bundle
+**/test_bundle.dart
+
+# Firebase platform config files (contain API keys — obtain from Firebase Console)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Local iOS signing artifacts and generated fastlane reports
+ios/*.cer
+ios/*.certSigningRequest
+ios/*.mobileprovision
+ios/*.p12
+ios/fastlane/README.md
+ios/fastlane/report.xml
+
+chatting/

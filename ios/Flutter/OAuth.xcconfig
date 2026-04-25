@@ -1,0 +1,4 @@
+// Set this to the REVERSED_CLIENT_ID from GoogleService-Info.plist.
+// Google Sign-In on iOS still requires this URL scheme even when the
+// client IDs are configured in Dart code.
+GOOGLE_REVERSED_CLIENT_ID=com.googleusercontent.apps.replace-me

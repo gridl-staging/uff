@@ -1,0 +1,2652 @@
+[
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.94,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.940377,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9407539,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9411309,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9415078,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9418848,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9422617,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9426387,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9430156,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9433926,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9437696,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:00:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9441465,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9445235,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9449004,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9452774,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9456543,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9460313,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9464083,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9467852,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9471622,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9475391,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9479161,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.948293,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:01:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.94867,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 175
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9490469,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9492982,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9495496,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9498009,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9500522,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9503035,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9505548,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9508061,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9510574,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9513087,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.95156,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:02:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9518113,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9520626,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9523139,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9525652,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9528165,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9530678,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9533191,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9535704,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9538217,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.954073,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9543243,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9545756,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:03:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9548269,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 145
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9550782,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9554552,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9558322,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9562091,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9565861,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.956963,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.95734,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9577169,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9580939,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9584708,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9588478,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:04:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9592248,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9596017,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9599787,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9603556,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9607326,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9611095,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9614865,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9618634,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9622404,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9626174,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9629943,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9633713,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:05:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9637482,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 175
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9641252,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9643765,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9646278,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9648791,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9651304,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9653817,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.965633,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9658843,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9661356,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9663869,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9666382,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:06:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9668895,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9671408,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9673921,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9676434,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9678947,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.968146,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9683974,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9686487,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9689,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9691513,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9694026,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9696539,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:07:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9699052,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 145
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9701565,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9705334,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9709104,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9712873,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9716643,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9720413,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9724182,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9727952,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9731721,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9735491,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.973926,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:08:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.974303,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.97468,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:05.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9750569,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:10.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9754339,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:15.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9758108,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:20.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9761878,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:25.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9765647,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:30.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9769417,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:35.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9773186,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:40.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9776956,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:45.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9780726,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:50.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9784495,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:09:55.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9788265,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 175
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:00.000Z",
+    "latitude": 60.17,
+    "longitude": 24.9792034,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9794547,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.979706,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9799573,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9802086,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9804599,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9807112,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9809625,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9812139,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9814652,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9817165,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:10:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9819678,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9822191,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9824704,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9827217,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.982973,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9832243,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9834756,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9837269,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9839782,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9842295,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9844808,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9847321,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:11:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9849834,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 145
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9852347,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9856117,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9859886,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9863656,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9867425,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9871195,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9874965,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9878734,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9882504,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9886273,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9890043,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:12:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9893812,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9897582,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9901351,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9905121,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9908891,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.991266,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.991643,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9920199,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9923969,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9927738,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9931508,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9935277,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:13:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9939047,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 175
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9942817,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.994533,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9947843,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9950356,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9952869,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9955382,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9957895,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9960408,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9962921,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9965434,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9967947,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:14:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.997046,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9972973,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9975486,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9977999,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9980512,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9983025,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9985538,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9988051,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9990564,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9993077,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.999559,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 24.9998103,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:15:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0000617,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 145
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.000313,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0006899,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0010669,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0014438,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0018208,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0021977,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0025747,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0029516,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0033286,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0037056,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0040825,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:16:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0044595,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0048364,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0052134,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0055903,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0059673,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0063443,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0067212,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0070982,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0074751,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0078521,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.008229,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.008606,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:17:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0089829,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 175
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0093599,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0096112,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0098625,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0101138,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 136
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0103651,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0106164,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 137
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0108677,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.011119,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0113703,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 138
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0116216,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0118729,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 139
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:18:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0121242,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0123755,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0126269,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 140
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0128782,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0131295,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 141
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0133808,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0136321,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 142
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0138834,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0141347,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.014386,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 143
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0146373,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0148886,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 144
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:19:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0151399,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 145
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0153912,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0157682,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 165
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0161451,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0165221,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 166
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.016899,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.017276,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 167
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0176529,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0180299,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0184068,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 168
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0187838,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0191608,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 169
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:20:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0195377,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0199147,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:05.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0202916,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 170
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:10.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0206686,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:15.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0210455,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 171
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:20.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0214225,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:25.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0217994,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 172
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:30.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0221764,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:35.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0225534,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:40.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0229303,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 173
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:45.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0233073,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:50.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0236842,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 174
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:21:55.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0240612,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 4.17,
+    "heartRateBpm": 175
+  },
+  {
+    "sessionId": 0,
+    "timestamp": "2026-03-20T08:22:00.000Z",
+    "latitude": 60.1699999,
+    "longitude": 25.0244381,
+    "elevation": 15.0,
+    "accuracy": 5.0,
+    "speed": 2.78,
+    "heartRateBpm": 135
+  }
+]

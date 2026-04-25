@@ -1,0 +1,9 @@
+{
+  "name": "uff-dev-spike",
+  "private": true,
+  "type": "module",
+  "description": "Stage 6 spike dependencies — not production code",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.1"
+  }
+}

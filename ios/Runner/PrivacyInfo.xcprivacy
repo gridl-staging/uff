@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <!-- File timestamp: used by drift (SQLite) for local storage -->
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>C617.1</string>
+            </array>
+        </dict>
+        <!-- UserDefaults: used by shared_preferences for theme mode persistence -->
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>CA92.1</string>
+            </array>
+        </dict>
+        <!-- System boot time: used by some Flutter plugins for timing -->
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>35F9.1</string>
+            </array>
+        </dict>
+        <!-- Disk space: used by SQLite/Drift for storage decisions -->
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>E174.1</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array>
+        <!-- GPS/location data collected during activity recording -->
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeLocation</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+        <!-- User name and profile data -->
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeName</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+        <!-- Photos: user uploads activity photos -->
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypePhotosOrVideos</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+        <!-- Health/Fitness: heart rate data from FIT/GPX file imports and external sensors.
+             NOTE: HealthKit is NOT used by UFF — heart rate is collected via FIT file imports
+             and Bluetooth sensor data through the tracelet tracking engine, not HealthKit APIs.
+             Declare NSPrivacyCollectedDataTypeHealth because we do store heart rate data linked
+             to user identity (uploaded to Supabase). Omit if Apple reviewers flag this as
+             requiring HealthKit entitlement — re-evaluate at that point. -->
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeHealth</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+    </array>
+    <!-- No tracking: UFF does not use data for advertising or tracking across apps -->
+    <key>NSPrivacyTracking</key>
+    <false/>
+</dict>
+</plist>
