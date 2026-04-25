@@ -1,0 +1,100 @@
+name: Firebase Test Lab
+
+on:
+  workflow_dispatch:
+    inputs:
+      device_token:
+        description: Optional override for the test device token
+        required: false
+        type: string
+  schedule:
+    - cron: "30 8 * * *"
+
+jobs:
+  android_test_lab:
+    name: Android Firebase Test Lab
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      FCM_PROJECT_ID: ${{ secrets.FCM_PROJECT_ID }}
+      FIREBASE_TEST_DEVICE_TOKEN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.device_token || secrets.FIREBASE_TEST_DEVICE_TOKEN }}
+      FIREBASE_OUTPUT_DIR: tmp/firebase_test_lab/android
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase_test_lab_service_account.json
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Materialize Test Lab service account
+        run: |
+          test -n "${{ secrets.FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON }}"
+          printf '%s' '${{ secrets.FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON }}' > "${GOOGLE_APPLICATION_CREDENTIALS}"
+          chmod 600 "${GOOGLE_APPLICATION_CREDENTIALS}"
+
+      - name: Build Android APKs for instrumentation matrix
+        run: |
+          flutter build apk --debug
+          (cd android && ./gradlew app:assembleAndroidTest)
+
+      - name: Run Android Firebase Test Lab receipt lane
+        run: |
+          bash scripts/dev/run_firebase_test_lab_push_receipt.sh \
+            --platform android \
+            --device-token "${FIREBASE_TEST_DEVICE_TOKEN}" \
+            --correlation-id "gha-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-android" \
+            --app "build/app/outputs/flutter-apk/app-debug.apk" \
+            --test "android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk" \
+            --output-dir "${FIREBASE_OUTPUT_DIR}"
+
+      - name: Upload Android Test Lab artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: firebase-test-lab-android-${{ github.run_id }}-${{ github.run_attempt }}
+          path: tmp/firebase_test_lab/android/**
+          if-no-files-found: error
+
+  ios_test_lab:
+    name: iOS Firebase Test Lab
+    runs-on: ubuntu-latest
+    needs: android_test_lab
+    permissions:
+      contents: read
+    env:
+      FIREBASE_TEST_DEVICE_TOKEN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.device_token || secrets.FIREBASE_TEST_DEVICE_TOKEN }}
+      FIREBASE_OUTPUT_DIR: tmp/firebase_test_lab/ios
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run iOS Firebase Test Lab receipt lane
+        run: |
+          bash scripts/dev/run_firebase_test_lab_push_receipt.sh \
+            --platform ios \
+            --device-token "${FIREBASE_TEST_DEVICE_TOKEN}" \
+            --correlation-id "gha-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-ios" \
+            --dry-run \
+            --output-dir "${FIREBASE_OUTPUT_DIR}"
+
+      - name: Upload iOS Test Lab artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: firebase-test-lab-ios-${{ github.run_id }}-${{ github.run_attempt }}
+          path: tmp/firebase_test_lab/ios/**
+          if-no-files-found: error
