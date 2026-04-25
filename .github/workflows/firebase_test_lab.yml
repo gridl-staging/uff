@@ -20,7 +20,7 @@ jobs:
       FCM_PROJECT_ID: ${{ secrets.FCM_PROJECT_ID }}
       FIREBASE_TEST_DEVICE_TOKEN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.device_token || secrets.FIREBASE_TEST_DEVICE_TOKEN }}
       FIREBASE_OUTPUT_DIR: tmp/firebase_test_lab/android
-      GOOGLE_APPLICATION_CREDENTIALS: /tmp/firebase_test_lab_service_account.json
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase_test_lab_service_account.json
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -41,9 +41,14 @@ jobs:
         run: flutter pub get
 
       - name: Materialize Test Lab service account
+        # Pass the secret via env so multi-line JSON is not inlined into the shell
+        # text (which broke `test -n "..."` with "too many arguments" because the
+        # rendered command contained unescaped quotes from the JSON body).
+        env:
+          FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON }}
         run: |
-          test -n "${{ secrets.FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON }}"
-          printf '%s' '${{ secrets.FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON }}' > "${GOOGLE_APPLICATION_CREDENTIALS}"
+          test -n "${FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON}"
+          printf '%s' "${FIREBASE_TEST_LAB_SERVICE_ACCOUNT_JSON}" > "${GOOGLE_APPLICATION_CREDENTIALS}"
           chmod 600 "${GOOGLE_APPLICATION_CREDENTIALS}"
 
       - name: Build Android APKs for instrumentation matrix
